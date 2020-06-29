@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@700&display=swap');
+
+p, h1, h2, h3{
+    font-family: 'Muli', sans-serif;
+    font-family: 7px;
+}
+
+.topo-header img {
+    width: 200px;
+
+}
+
+body{
+    width: 90vw;
+    background-image: url("../img/trianguloPequenoEditado.png");
+    background-repeat: no-repeat; 
+    background-size: 45vw;
+    background-position: top right;
+    padding: 3vw;
+    background-color: #F5F5F5 !important; 
+}
+
+.conteudo1{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texto1 p{
+    font-size: 1.8em;
+    margin-left: 15px;
+}
+
+.foto-ebook{
+    width: 300px;
+}
+
+.conteudo2{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texto2{
+    font-size: 1.2em;
+
+}
+
+
+
+p.form{
+    text-align: center;
+    font-size: medium;
+}
+
+.rodape{
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-rodape img{
+  width: 15vw;
+}
